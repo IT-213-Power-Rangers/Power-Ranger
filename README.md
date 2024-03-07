@@ -1,2 +1,4 @@
 # IT-213- Power Ranger 
-Browse the project documentation [here](https://docs.google.com/document/d/1WWHvDFLxbsgx1CMm1iI7-z_aoACO3q0K/edit?usp=drive_link&ouid=105299080543894862696&rtpof=true&sd=true)
+Browse the project documentation [here](https://docs.google.com/document/d/1mSDIWlNuKzjAdzlNfKUaUJaTQOdV7fTL/edit?usp=drivesdk&ouid=104120983255672456724&rtpof=true&sd=true)
+
+
