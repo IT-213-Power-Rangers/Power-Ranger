@@ -1,4 +1,4 @@
 # IT-213- Power Ranger 
-Browse the project documentation [here](https://docs.google.com/document/d/1mSDIWlNuKzjAdzlNfKUaUJaTQOdV7fTL/edit?usp=drivesdk&ouid=104120983255672456724&rtpof=true&sd=true)
+Browse the project documentation [here](https://drive.google.com/drive/folders/1E1_UOMvl_qowsxscj0jmU4PmEGaFwgqo?usp=drive_link)
 
 
