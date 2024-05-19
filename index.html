@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" media="screen" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Parts Store</title>
+   
+</head>
+
+
+<body>
+    <header>
+        <div class="div">
+        <div class="head">
+            <h1><span style="color:  #4CAF50;">CYBER</span> MART</h1>
+        </div>
+      
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" placeholder="Search..." name="search">
+                <a class="submit" href="#">Submit</a>
+            </form>
+        </div>
+
+        <div class="login">
+    
+            <a class="login1" onclick="openLoginModal()" href="#">Login</a>
+            <a class="signup1" onclick="openSingupModal()" href="#">Signup</a>
+            <a class="admin1" onclick="promptPassword()" href="businessowner.html">Admin</a>
+
+
+            <div class="login-modal" id="loginModal" style="display: none;">
+				<span class="close" onclick="closeLoginModal()">&times;</span>
+				<div class="login-content">
+
+                <h2>Login</h2>
+						<form id="loginForm">
+						<label for="username">Username:</label>
+						<input type="text" id="username" name="username" required>
+						<label for="password">Password:</label>
+						<input type="password" id="password" name="password" required>
+                        
+                        <div class="login2">
+						<a style="text-decoration: none; text-align: center; color: white;" href="Home.html">Login</a>
+                          </div>
+                        <div class="login3">
+                        <a style="text-decoration: none; text-align: center; color: white; padding: 20px;" href="#" onclick="closeLoginModal()">Cancel</a>
+                        </div>		
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <div class="signup-modal" id="SignupModal" style="display: none;">
+            <span class="close" onclick="closeSignupModal()">&times;</span>
+            <div class="signin-content">
+
+            <h2>Signup</h2>
+                    <form id="signupForm">
+                
+                    
+                    <label for="username">Email:</label>
+                    <input type="text" id="username" name="username" required>
+
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <div class="signup2">
+                    <a style="text-decoration: none; text-align: center; color: white;" href="Home.html">Signup</a>
+                      </div>
+                    <div class="signup3">
+                    <a style="text-decoration: none; text-align: center; color: white; padding: 20px;" href="#" onclick="closeSignupModal()">Cancel</a>
+                    </div>		
+            </form>
+        </div>
+    </div>
+        </div>
+
+
+
+
+        
+    </div>
+    </header>
+
+    <nav>  
+    </nav>
+
+ 
+    <img class="picture" src="styles/specs.png">
+	
+	<div class="icons">
+		
+		<div class="zoom1">
+		<div class="icon1">
+		<img style="width: 100px; height: 100px; margin-left: 90px; margin-top: 40px" src="styles/chip.png">
+		<p style="font-size: 30px; text-align: center;">CPU</p>
+		</div>
+		</div>
+		
+		<div class="zoom2">
+		<div class="icon2"> 
+	    <img style="width: 100px; height: 100px; margin-left: 90px; margin-top: 40px;" src="styles/motherboard.png">
+		<p style="font-size: 30px; text-align: center;">Motherboard</p>
+		</div>
+		</div>
+		
+		<div class="zoom3">
+		<div class="icon3"> 
+		<img style="width: 100px; height: 100px; margin-left: 90px; margin-top: 40px" src="styles/mouse.png">
+		<p style="font-size: 30px; text-align: center;">Peripherals</p>
+		</div>
+		</div>
+		
+		<div class="zoom3">
+		<div class="icon4"> 
+		<img style="width: 100px; height: 100px; margin-left: 90px; margin-top: 40px" src="styles/pc.png">
+		<p style="font-size: 30px; text-align: center;">Monitor</p>
+		</div>
+		</div>
+	</div>
+   
+    
+  
+
+    <footer>
+        &copy; 2024 Computer Parts Store
+    </footer>
+</body>
+</html>
+

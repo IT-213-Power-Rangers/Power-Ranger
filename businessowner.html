@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/businessowner.css" media="screen" rel="stylesheet">
+    <script src="js/crud.js"></script>
+    <title>Computer Parts Inventory</title>
+</head>
+<body>
+   
+    <header>
+        <div class="div">
+        <div class="head">
+            <h1><span style="color:  #4CAF50;">CYBER</span> MART</h1>
+        </div>
+
+
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" placeholder="Search..." name="search">
+                <a class="submit" href="#">Submit</a>
+            </form>  
+        </div> 
+
+
+        <div class="Logout">
+            <a class="logout1" href="index.html">Logout</a>
+            </div>
+            
+    </div>
+
+    </header>
+
+    <nav>  
+    </nav>
+
+    
+    
+      
+      
+    
+
+        <img style="margin-bottom: 100px;" class="picture" src="styles/specs.png">
+
+
+    <div class="crud">
+    <form id="productForm">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" required><br><br>
+        
+        <label for="productDescription">Product Description:</label><br>
+        <textarea id="productDescription" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="productPrice">Price:</label>
+        <input type="number" id="productPrice" required><br><br>
+
+        <button type="submit" onclick="addProduct()">Add Product</button>
+    </form>
+
+</div>
+
+    <h2>Product List:</h2>
+    <ul id="productList">
+    </ul>
+
+
+    <footer>
+        &copy; 2024 Computer Parts Store
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
